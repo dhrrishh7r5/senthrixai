@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftedCodeX | Senthrix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="description" content="Senthrix AI Chat - Intelligent Conversational Experience">
+</head>
+
+<body>
+
+    <div class="container" role="main">
+        <!-- Sidebar -->
+        <aside class="sidebar" aria-label="Chat Sidebar">
+            <div class="brand">
+                <span class="brand-text">SENTHRIX</span>
+            </div>
+            <button class="new-chat-btn" id="newChatBtn" aria-label="Create new chat">
+                <i class="fas fa-plus"></i>
+                New Chat
+            </button>
+            <!-- Search bar -->
+            <div class="search-container">
+                <label for="chatSearch" class="sr-only">Search conversations</label>
+                <input type="search" id="chatSearch" placeholder="Search conversations..." aria-label="Search chats">
+            </div>
+            <div class="chat-history" id="chatHistory" role="list" aria-label="Chat History">
+                <div class="history-label">Chat History</div>
+                <div class="empty-state" id="historyEmptyState">
+                    No conversations yet. Start chatting!
+                </div>
+                <!-- Chat history items will be added here -->
+            </div>
+             <form action="Senthrix.pdf" method="get" class="initiate-form">
+             <button id="initiateButton" class="initiate-button" aria-label="Initiate new chat" type="submit">
+              Documentation
+             </button>
+            </form>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="main-chat">
+            <div class="chat-header">
+                <h1>This bot is still under training</h1>
+            </div>
+            <!-- Messages Area -->
+            <div class="messages-area" id="messagesArea" aria-live="polite">
+                <div class="empty-state" id="messagesEmptyState">
+                    <h2>Welcome to Senthrix</h2>
+                    <p>Start a new conversation by typing a message below</p>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <form id="messageForm" aria-label="Message Input Form">
+                    <div class="input-container">
+                        <label for="messageInput" class="sr-only">Type your message</label>
+                        <textarea id="messageInput" placeholder="Type what's on your consciousness..." rows="1"
+                            aria-label="Message Input" maxlength="1000"></textarea>
+                        <button type="button" class="clear-btn glass-effect" id="clearInputBtn"
+                            aria-label="Clear message">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <div class="input-buttons">
+                            <button type="submit" class="send-btn glass-effect" aria-label="Send message"
+                                title="Send Message">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="disclaimer" role="note">
+                    Senthrix by CraftedCodeX • Responses may vary
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
