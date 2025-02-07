@@ -6,7 +6,7 @@
 
 Senthrix is an AI chatbot web application designed to provide an interactive and intelligent conversational experience. Currently under development by CraftedCodeX, Senthrix is in its training phase and aims to evolve into a powerful personal AI assistant. This version showcases the basic functionalities and UI of the chatbot.
 
-**Key Features (Current Version):**
+**What is present in the UI?**
 
 *   **New Chat Creation:** Easily start new conversations with a click of a button.
 *   **Chat History:**  Keep track of past conversations in a sidebar history for easy access and review.
@@ -20,7 +20,7 @@ Senthrix is an AI chatbot web application designed to provide an interactive and
 *   **Local Storage:** Chat history and titles are saved in your browser's local storage, allowing you to resume conversations upon return.
 *   **Documentation Access:** Easily access the project documentation (Senthrix.pdf) directly from the sidebar.
 
-**Future Enhancements (Roadmap - Based on Documentation):**
+**Roadmap and Plans:**
 
 *   **Phase 1 (Current):** Rule-based responses, basic memory storage, typing indicators, and response filtering.
 *   **Phase 2 (NLP & AI Enhancement):** Integration of NLP models for improved response accuracy, sentiment analysis, context retention, and self-learning mechanisms.
