@@ -1,6 +1,6 @@
 # Senthrix AI Chat - Intelligent Conversational Experience
 
-![Senthrix AI Chat Interface](link-to-screenshot-if-available.png)
+![Senthrix AI Chat Interface](uiss.png)
 
 ## Overview
 
