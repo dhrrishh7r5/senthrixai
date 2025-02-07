@@ -28,7 +28,7 @@ Senthrix is an AI chatbot web application designed to provide an interactive and
 *   **Phase 4 (Advanced AI Capabilities):** Multi-turn conversations, voice recognition and response, API and web integration, AI-generated content, and automated research & data retrieval.
 *   **Future Expansion:** Multi-language support, emotion AI, offline mode, and enhanced security & ethics.
 
-## Technologies Used
+## Technologies Used for the UI -
 
 *   **HTML:**  Structure and content of the web application.
 *   **CSS:** Styling and visual presentation using `styles.css`.
@@ -45,7 +45,7 @@ To run Senthrix AI Chat locally:
 
 The application should now be running in your browser. You can start interacting with the chat interface.
 
-**Note:** This version features simulated bot responses.  To experience actual AI-powered responses, future updates will be required as development progresses.
+**Note:** **This version features simulated bot responses.  To experience actual AI-powered responses, future updates will be required as development progresses.**
 
 ## Styles
 
